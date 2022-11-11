@@ -2,11 +2,26 @@
 #container{
     max-width: 1000px;
     width:95%;
-    margin:50px auto;
+    margin:150px auto;
     border:5px solid blue;
     background-color: rgba(0,0,255,0.2);
     height: 500px;
-    margin-bottom: 1000px;
+    z-index: 100;
+    position: relative;
+}
+#container div{
+    position: absolute;
+    bottom: -5%;
+    right: -5%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0,255,0,0.5);
+    z-index: 1;
+    border: 5px solid green;
+}
+p{
+    line-height: 3;
+    margin: 100px;
 }
 #fent{
    
